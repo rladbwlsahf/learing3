@@ -6,8 +6,8 @@ public class Bus extends Car {
 		System.out.println("Bus 객체 생성");
 	}
 	public int getCharge() {
-		int charge = 1300;	
-		//평균적 대중 교통 요금 1300원
+		int charge = 1450;	
+		//평균적 대중 교통 요금 1450원
 		System.out.printf("일반적인 요금 : %d \n", charge);
 		return charge;
 	}
